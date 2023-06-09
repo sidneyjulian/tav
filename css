@@ -1,11 +1,13 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #f4f1de;
 }
 
 header {
-  background-color: #f8f9fa;
+  background-color: #e07a5f;
   text-align: center;
   padding: 20px;
+  color: white;
 }
 
 nav ul {
@@ -13,15 +15,21 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: space-around;
+  background-color: #3d405b;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #6c757d;
+  color: #e9c46a;
 }
 
 section {
   margin: 20px;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
 }
 
 .gallery {
@@ -35,4 +43,3 @@ section {
   height: 200px;
   object-fit: cover;
   margin: 10px;
-}
