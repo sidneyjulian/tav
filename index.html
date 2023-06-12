@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head> 
+<head>
   <title>Tav's Kitchen</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <header>
     <h1>Welcome to Tav's Kitchen!</h1>
-    <img src="path-to-your-image.jpg" alt="Description of Image">
   </header>
   <nav>
     <ul id="menu">
@@ -20,23 +19,30 @@
   </nav>
   <section id="menu-section">
     <h2>Our Menu</h2>
-    <!-- Menu items will be here -->
+    <img src="menu.jpg" alt="Our Menu">
   </section>
   <section id="order-section">
     <h2>Order Now</h2>
-    <!-- Order form will be here -->
+    <form id="orderForm">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="phone">Your Phone:</label><br>
+      <input type="tel" id="phone" name="phone"><br>
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <input type="submit" value="Submit">
+    </form>
   </section>
   <section id="calendar-section">
     <h2>Upcoming Events</h2>
-    <!-- Calendar will be here -->
     <div id="calendar"></div>
   </section>
   <section id="about-section">
     <h2>About Us</h2>
     <h3>About Tavious</h3>
-    <p> <!-- Description about Tavious here --> </p>
+    <p> Tavious, the founder and head chef of Tav's Kitchen, has a lifelong passion for culinary arts... </p>
     <h3>Our Mission</h3>
-    <p> <!-- Description about the mission here --> </p>
+    <p> Our mission at Tav's Kitchen is to bring you the freshest, most delicious meals... </p>
   </section>
   <section id="gallery-section">
     <h2>Our Gallery</h2>
